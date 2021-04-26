@@ -1,0 +1,38 @@
+{
+  "name": "hijrah-codebase",
+  "version": "1.0.0",
+  "description": "hijrah codebase 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "nodemon": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ba64": "^3.0.9",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.23.0",
+    "confidence": "^3.0.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dateformat": "^3.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "joi": "^14.0.1",
+    "joi-date-extensions": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.15",
+    "passport": "^0.4.1",
+    "passport-http": "^0.3.0",
+    "uuid": "^8.3.1",
+    "validate.js": "^0.13.1"
+  }
+}
